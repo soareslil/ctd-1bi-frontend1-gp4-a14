@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+  }
+ 
+  .cabecalho {
+    height: 70px;
+    background-color: #00669F;
+    padding: 25px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+
+  /* .main-card{
+    padding-top: 200px;
+    border: 10px solid black;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+  } */
+
+  .main-cards{
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .card {
+    width: 300px;
+    height: 460px;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    display: inline-block;
+  }
+
+ .card-1 {
+    margin-right: 30px;
+}
+
+  
+  .card__background {
+  
+      background-image: url('../img/batman-background.jpg');
+      height: 180px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      position: relative;
+      background-position: center;
+  }
+ 
+  .card__background-alerquina {
+      background-image: url('../img/pink-glitter.jpg');
+     height: 180px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      position: relative;
+      background-position: center;
+  }
+
+  .card__produto{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 100px;
+    top:130px;
+    border-radius: 80px;
+  }
+  
+  .card__infos{
+    margin: 10px;
+  }
+  
+  .teste {
+    margin-top: 40px;
+  }
+  
+  .card__titulo {
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .card__preco {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .card__descricao {
+    text-align: justify;
+    height: 131px;
+  }
+  
+  .card__botao {
+    width: 150px;
+    height: 50px;
+    background-color: #00669F;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card__botao a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .antes-header{
+      height: 40px;
+      background-color: #1CD1B0;
+      padding: 10px;
+      padding-left: 25px;
+      width: 100%;
+      position: fixed;
+  }
+
+  header{
+    padding-top: 40px;
+  }
+
+  .rodape{
+    height: 45px;
+    background-color: #00669F;
+    padding-top: 13px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:60px;
+  }
+  .rodape a{
+      text-decoration: none;
+      color: white;
+  }
+
+  .heart-icon{
+    width: 50px;
+    position: absolute;
+    top: 50;
+    z-index: 10;
+  }
