@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
-@media (min-width: 460px) { /* Tables */ }
-
 * {
     padding: 0;
     margin: 0;
@@ -128,6 +126,21 @@ button {
     background: #00669F;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-left: 25%;
+}
+
+nav a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    }
+
 .p-footer {
     display: flex;
     align-items: center;
@@ -153,3 +166,7 @@ button {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 */
+
+@media (min-width: 460px) { 
+
+ }
