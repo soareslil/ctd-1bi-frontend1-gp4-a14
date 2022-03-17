@@ -121,15 +121,15 @@
       padding: 10px;
       padding-left: 25px;
       width: 100%;
-      position: fixed;
+      /* position: fixed; */
   }
 
-  header{
+  /* header{
     padding-top: 40px;
-  }
+  } */
 
   .rodape{
-    height: 45px;
+    height: 80px;
     background-color: #00669F;
     padding-top: 13px;
     padding-left: 40px;
